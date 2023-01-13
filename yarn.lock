@@ -1311,6 +1311,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.3.0.tgz#9e558170c106bbafaa1ef502bd8e6d4651012bf9"
   integrity sha512-+zDZ20NUnSWghj7Ku5aFphMzuM9JulqCW+aPXT6IfIXFbb8tzYTTOSeRFOtuekJ99ibW2fUCSsjuKNlwDIbHFg==
 
+"@react-native-community/geolocation@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@react-native-community/geolocation/-/geolocation-3.0.4.tgz#2ba78ab5921441556ee38a4ffc5d9f27ce08c77d"
+  integrity sha512-zzf+DISPwEpMH25tR33hgVuy89emYYTrZQarbCSwFOU6fH9MNxnmsRPmdpuNI9YvnjMtEj5kzDrGyqBhx86n6A==
+
 "@react-native/assets@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-native/assets/-/assets-1.0.0.tgz#c6f9bf63d274bafc8e970628de24986b30a55c8e"
@@ -3473,6 +3478,11 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
+
+haversine@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/haversine/-/haversine-1.1.1.tgz#05b65e0445aca8f217b0db56877e4d637d3fc8ae"
+  integrity sha512-KW4MS8+krLIeiw8bF5z532CptG0ZyGGFj0UbKMxx25lKnnJ1hMUbuzQl+PXQjNiDLnl1bOyz23U6hSK10r4guw==
 
 hermes-engine@~0.8.1:
   version "0.8.1"
@@ -5732,6 +5742,16 @@ react-native-codegen@^0.0.7:
     flow-parser "^0.121.0"
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
+
+react-native-compass-heading@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/react-native-compass-heading/-/react-native-compass-heading-1.4.2.tgz#144aa060e06815586f22b488b05e30eee26144ab"
+  integrity sha512-7j37EIw2bNXgdu/mb47eTxXgXqwnMQAud69KflqaTfxXdr+6ODurlou3WH1o/V+6pAIV2A0kuYJJ9S7l9T8CMg==
+
+react-native-permissions@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-3.6.1.tgz#73adcc1cef8cd57a9ef167b4507405f4ff5749c4"
+  integrity sha512-fzPpPQXeD34inUccqtoResSwYubfrwUguP4qrVUUv8+KSMjYSaHGoS5HaIJLZHlN9gO+TvLJZ2L5ZljTsb6qnQ==
 
 react-native@0.65.1:
   version "0.65.1"
